@@ -29,9 +29,7 @@ org:
 # For permission set, "ps" must be set to true.
 #
 target:
-    - name: "CustomAdmin"
-    - name: "CustomStandardUser"
-    - name: "SalesUser"
+    - name: "Veruna Core"
       ps: true
 
 #
