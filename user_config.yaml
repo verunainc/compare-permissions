@@ -12,7 +12,7 @@ resultFilePath: "result.xlsx"
 #
 org:
     - name: VerunaCore
-      loginUrl: "https://login.salesforce.com"
+      loginUrl: "https://veruna-core-dev-ed.my.salesforce.com/"
       apiVersion: "62.0"
       userName: "(YOUR USER NAME)"
       password: "(YOUR USER PASSWORD)"

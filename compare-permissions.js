@@ -154,7 +154,8 @@ if (userConfig.object) {
         let conn = null;
         if (org.name == "VerunaCore") {
             org.password = process.env.PACKAGING_ORG_ACCESS_TOKEN;
-            conn = new jsforce.Connection({ loginUrl: org.loginUrl, version: org.apiVersion, accessToken: org.password });
+            conn = new jsforce.Connection({ instanceUrl: org.loginUrl, version: org.apiVersion, accessToken: org.password });
+            // log(conn);
         } else {
             conn = new jsforce.Connection({ loginUrl: org.loginUrl, version: org.apiVersion });
             // login to salesforce
